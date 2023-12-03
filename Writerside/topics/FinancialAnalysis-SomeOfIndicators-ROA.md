@@ -125,4 +125,4 @@ In this case, we can compute the effect to differentiate the ROA with respect to
 \end{align}
 ```
 
-From this result, if the ROA is positive, then the ROA decreases when the shareholders' equity increases like issuing new stocks. Bacause of this, the total assets increasess, as a result, the ROA decreases.
+From this result, if the ROA is positive, then the ROA increases when the shareholders' equity decreases like the case of the buyback. However, in general, the NetIncome is changed because of spending the money to buy back stocks in the future, therefore, we have to consider the effect of the change in the related parameters. 
