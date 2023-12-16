@@ -1,3 +1,0 @@
-# ROIC
-
-Start typing here...
