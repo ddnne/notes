@@ -9,7 +9,7 @@ $$
 \end{align}
 $$
 
-Attention! There are two types of the ROA. One is the ROA using the NetIncome in the numerator and the total assets in the denominator. The other is the ROA using the EBIT in the numerator and the total assets in the denominator. We mainly use the first one in this note.
+Attention! There are two types of the ROA. One is the ROA using the net income in the numerator and the total assets in the denominator. The other is the ROA using the EBIT in the numerator and the total assets in the denominator. We mainly use the first one in this note.
 
 The ROA depends on these parameters, but we omit them from the argument for simplicity and will explicitly write them when necessary.
 
@@ -21,15 +21,10 @@ $$
 \end{align}
 $$
 
-## Why use the NetIncome in the numerator and the total assets in the denominator?
-There are ROX (Return on X) ratios for various X. For example, the ROA, ROE, and ROIC. These ratios are used to measure the profitability of the company. The ROA is to measure the profitability to the total assets.
+## Why use the net income in the numerator and the total assets in the denominator?
+There are ROX (Return on X) ratios for various X. For example, the ROA, ROE, and ROIC. These ratios are used to measure the profitability of the company. The ROA is to measure the profitability of the total assets.
 
-The measure of the profit in the numerator is not important compared to the denominator. Therefore, the measure is sometimes different in the numerator; for example, as we denoted above, there are two famous types of ROA definitions and numerators: NetIncome and EBIT.
-
-## Relationship with other indicators
-We write some relationships between the ROA and other indicators.
-### Relationship with ROIC
-
+The measure of the profit in the numerator is not essential compared to the denominator. Therefore, the measure is sometimes different in the numerator; for example, as we denoted above, there are two famous ROA definitions and numerators: net income and EBIT.
 
 ## case study
 In this case study, we consider some changes in the parameters of the ROA. Then, however, we assume the other parameters are unchanged for simplicity. Of course, in the real world, the parameters may change simultaneously. However, it is difficult to consider all the cases and the dynamics of the parameters.
@@ -115,9 +110,9 @@ $$
 
 
 ### the effect of the change in the shareholder's equity
-In this case, we consider the case where the shareholders' equity changes such as the company issues new stocks or buys back stocks.
+In this case, we consider the case where the shareholders' equity changes, such as the company issuing new stocks or buying back stocks.
 
-In this case, we can compute the effect to differentiate the ROA with respect to the shareholders' equity. We can write the change in the ROA as follows:
+In this case, we can compute the effect to differentiate the ROA for the shareholders' equity. We can write the change in the ROA as follows:
 
 $$
 \begin{align}
@@ -126,4 +121,4 @@ $$
 \end{align}
 $$
 
-From this result, if the ROA is positive, then the ROA increases when the shareholders' equity decreases, like in the buyback case. However, in general, the NetIncome is changed because of spending the money to buy back stocks in the future. Therefore, we must consider the change's effect on the related parameters.
+From this result, if the ROA is positive, then the ROA increases when the shareholders' equity decreases, like in the buyback case. However, in general, the net income changes because of spending money to buy back stocks in the future. Therefore, we must consider the change's effect on the related parameters.
