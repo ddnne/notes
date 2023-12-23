@@ -123,6 +123,9 @@ Therefore, the total of the carry and the roll-down is
 
 $$
 \begin{aligned}
-N\left[\left(K(t, T) - L(t)\right)\delta t - D(t, T) \delta K\right]
+N\left[\left(K(t, T) - L(t)\right)\delta t - D(t, T) \delta K\right].
 \end{aligned}
 $$
+
+The interpretation of the carry is, for example, the value of the swap is roughly the difference between the floating and the fixed rates times the duration of the swap. As time passes, the duration of the swap decreases, and the value of the swap changes by the difference. 
+Next, the interpretation of the roll-down is, for example, the value of the swap is dependent on the minus of the fixed rate times the duration of the swap. If the fixed rate increases, the product of the fixed rate and the duration decreases because of the minus sign. 
