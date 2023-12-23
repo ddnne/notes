@@ -123,7 +123,6 @@ Therefore, the total of the carry and the roll-down is
 
 $$
 \begin{aligned}
-N\left[\left(K(t, T) - L(t)\right)\delta t - D(t, T) \delta K\right] \\
-
+N\left[\left(K(t, T) - L(t)\right)\delta t - D(t, T) \delta K\right]
 \end{aligned}
 $$
