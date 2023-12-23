@@ -3,6 +3,7 @@
 ## General Description
 The carry is the return for holding financial instruments. Therefore, we have to compare the future value of the instrument with the current value, and then we also have to discount the future value from the current value. 
 We denote the Carry at time $t$ and the holding period $\tau$ as $C(t, \tau)$, the price of the instrument at time $t$ as $P(t)$, and the discount rate at time $t$ as $r(t)$. Then we have
+
 $$
 C(t, \tau) =  \exp \left( -\int_t^{t+\tau} r(s) ds \right) P(t + \tau) - P(t).
 $$
@@ -10,6 +11,7 @@ $$
 The first term on the right-hand side is the future value of the instrument discounted to time $t$ from time $t + \tau$. The second term is the current value of the instrument. 
 
 If we use the theory of stochastic calculus, this means that the future value of the instrument and the discount rate are stochastic processes, then we can use the expected value of the carry. The expected value of the carry is
+
 $$
 \begin{aligned}
 \mathbb{E} \left[ C(t, \tau) \left. \right| \mathcal{F}_t \right] &= \mathbb{E} \left[ \exp \left( -\int_t^{t+\tau} r(s) ds \right) P(t + \tau) - P(t) \left. \right| \mathcal{F}_t \right]\\
@@ -19,6 +21,7 @@ $$
 
 ## If the holding period is infinitesimal $\tau \to 0$
 To understand the carry, we have to understand the behavior of the carry when the holding period is infinitesimal $\tau = \delta t\to 0$. In this case, we have
+
 $$
 \begin{aligned}
 C(t, \delta t) &= \exp \left( -\int_t^{t+\delta t} r(s) ds \right) P(t + \delta t) - P(t) \\
@@ -60,6 +63,7 @@ C(t, \delta t) &= \delta P(t) - P(t)r(t) \delta t \\
 &\sim \left(y(t, T) - c - r(t) \right) \delta t - D(t, T) F \delta y.
 \end{aligned}
 $$
+
 In some cases, we call the term multiplied by $\delta t$ as the carry, and the term multiplied by $\delta y$ as the roll. 
 
 The carry is the return of holding the bond during the holding period $\delta t$ when the yield $y(t, T)$ is unchanged. The return is affected by decreasing the time to maturity $T-t$. If time passes, the value of the bond will increase by the yield $y(t, T)$ because the denominator of the bond price will decrease, decrease by the coupon $c$ because the numerator of the bond price will decrease, and decrease by the discount rate $r(t)$ because the rate represents the risk-free rate and discounts the future value. 
@@ -77,7 +81,7 @@ $$
 
 For simplicity, we use the continuous cash flow. 
 
-This formula represents the cash flows which consist the floating rate minus the fixed rate during the swap period $[t, T]$ discounted by the discount rate $r(t)$. 
+This formula represents the cash flows, which consist of the floating rate minus the fixed rate during the swap period $[t, T]$ discounted by the discount rate $r(t)$. 
 
 Next, we calculate the carry. The present value of the swap must be zero at time $t$ with the fixed rate $K(t, T)$. Therefore, we have
 
