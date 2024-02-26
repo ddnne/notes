@@ -3,3 +3,10 @@
 
 # python virtual environment
 venv
+
+# markdown editor generated files
+.obsidian
+
+# data files
+*.csv
+*.png
